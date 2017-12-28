@@ -27,7 +27,6 @@ export default {
   },
   methods: {
     changeStateData () {
-      console.log('going to new')
       if(this.$store.state.initialState) {
         this.$store.state.dynamicData = 'hahaha'
       } else {

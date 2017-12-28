@@ -8,12 +8,11 @@
 import {routeHelpers} from './router/index'
 export default {
   name: 'app',
-  beforeCreate () {
-    console.log(this.$route)
-    if (this.$route.path != "/") {
-      this.$store.dispatch('routeHelper')
-    }
-  }
+  // beforeCreate () {
+  //   if (this.$route.path != "/") {
+  //     this.$store.dispatch('routeHelper')
+  //   }
+  // }
 }
 </script>
 
